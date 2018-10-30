@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Keeper</title>
+</head>
+<link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+crossorigin="anonymous">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<body>
+   
+    <form id="score_keeper">
+        <div class="container">
+        <div class="col-12">
+                <h1 class="navbar-brand"><ins>Score Keeper</ins> <hr value="Score" ></h1>
+               
+        <div class="form-group">
+            <input type="text" name="player1" placeholder="player1..." id="player1"    class="form-control" required>
+            <br>
+            <input type="text" name="player2" placeholder="player2..." id="player2" class="form-control" required>
+            <br>
+            <input type="text" name="player3"  placeholder="player3..." id="player3" class="form-control" required>
+            <br>
+            <input type="text" name="player4" placeholder="player4..." id="player4" class="form-control" required>
+            <br>
+            <a href="/game">
+                <button type="submit" margin="auto" class="btn btn-danger col-3"  >CREATE NEW GAME</button>
+                </a>
+           
+           <!--  <input type="submit" class="btn btn-primary form-control" value="Submit"/> -->
+        </div>
+    </div>
+</div>
+    </form>
+   
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/main.js"></script>
+
+
+</html>
